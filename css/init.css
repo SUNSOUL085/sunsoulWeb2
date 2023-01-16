@@ -1,0 +1,238 @@
+.bg{
+    background:linear-gradient(to bottom, rgb(236, 109, 35),rgb(238, 185, 40));
+    
+    
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+li,a{
+    text-decoration: none;
+    color: #000;
+}
+.nav-btn{
+    /* margin-left: auto; */
+    background: linear-gradient(to right, rgb(136, 0, 7),rgb(253, 35, 35))70%;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 3px #8d8d8d;
+}
+ 
+.nav-btn:hover{
+    background: #fff;
+    color: rgb(255, 42, 42);
+    transition: all ease 1s;
+}
+.nav-logo{
+    color: rgb(70, 40, 40);
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 0;
+}
+.nav-logo span{
+    color: #ff0000;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+}
+.nav-link{
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+.nav-link li{
+    display: inline-block;
+    padding: 0px 15px;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+.nav-list{
+    color: #442b2b;
+    transition: all ease 0.7s;
+}
+.nav-list:hover{
+    color: #a81212;
+    transition: all ease 0.7s;
+}
+.active{
+    color: rgb(253, 35, 35);
+}
+/* content visi misi */
+
+.header-vis{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    max-height: 300px;
+    padding: 50px;
+}
+.bold-vis{
+    max-width: 400px;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.light-vis{
+    line-height: 30px;
+    word-spacing: 10px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.vismis{
+    font-size: 36px;
+    margin: 30px auto;
+    text-align: center;
+    
+}
+/* content profile */
+
+.profile{
+    background-color: #1d221d;
+    color: #ffffff;
+    padding: 10px 0;
+    height: 1000px;
+    
+}
+.profile-box{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 auto;
+        max-width: 1200px;
+        max-height: 600px;
+}
+.img-box{
+    min-width: 400px;
+    margin-right: 100px;
+    box-shadow:5px 5px 50px #000000;
+}
+.img-profile{
+    width: 400px;
+}
+.profile-box p{
+    font-size: 22px;
+    max-width: 650px;
+    letter-spacing: 0.6px;
+    line-height: 40px;
+}
+.profile-box span{
+    font-size: 50px;
+}
+.profile-box .writer{
+    margin-top: 30px;
+
+    font-size: 26px;
+    font-weight: 200;
+    color: rgb(253, 219, 174);
+}
+.profile-box .writer-job{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 200;
+}
+.partner-box{
+    margin: 100px auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.partner-box img{
+    width: 150px;
+    height: 45px;
+    filter: grayscale(2);
+    opacity: 0.8;
+    transition: all ease 2;
+
+}
+.partner-box img:hover{
+    filter: none;
+    opacity: 1;
+    transition: all ease 2;
+}
+/* footer */
+
+footer{
+    background-color: #fff8b6;
+    color:rgb(31, 31, 31);
+  }
+  
+  .container-footer{
+    max-width: 1170px; 
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr ;
+    grid-gap: 40px;
+    margin:0 auto;
+    padding:100px 0;
+    
+  }
+  
+  .logo-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+  }
+  
+  .logo-footer img{
+    width: 100px;
+  }
+  
+  .logo-text{
+    text-align: center;
+    margin-top:20px;
+  }
+  
+  .title{
+    font-size:22px;
+  }
+  
+  .list li{
+    cursor: pointer;
+    list-style: none;
+    margin-top: 20px;
+    font-size: 18px;
+    transition: all ease 0.5s;
+  }
+  
+  .copyright hr{
+    width: 90%;
+    border: 1px thin white;
+  }
+  
+  .copyright h6{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 50;
+    padding: 30px 0;
+  }
+  
+  .list li:hover{
+    text-shadow: 2px 3px 5px #a81212;
+    transition: all ease 0.5s;
+  }
+  .ft-logo{
+    color: rgb(70, 40, 40);
+    letter-spacing: 4px;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 0;
+}
+.ft-logo span{
+    color: #ff0000;
+}
+.ft-logo p{
+    font-size: 14px;
+    color: #000000;
+}
